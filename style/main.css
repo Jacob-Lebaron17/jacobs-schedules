@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+.jacobs_schedules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.the_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 11vh;
+    background-color: rgb(19, 19, 19);
+}
+
+.the_header h3 {
+    font-size: 61px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: rgb(75, 18, 75);
+}
+
+.days_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 4.7vh;
+}
+
+.day {
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.the_schedules {
+    display: flex;
+    flex-direction: column;
+    width: 97vw;
+    height: 76vh;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+
+.day_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3.6vh;
+    background-color: black;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 900;
+    color: white;
+}
+
+.schedule {
+    resize: none;
+    outline: none;
+    border: none;
+    width: 99%;
+    height: 100%;
+}
+
+.isEditingBtn {
+    font-weight: 900;
+    font-size: 16px;
+    padding: 9px;
+    color: black;
+    background-color: darkgreen;
+    margin-top: 9px;
+    border-radius: 6px;
+}
+
+.isNotEditingBtn {
+    font-weight: 900;
+    font-size: 16px;
+    padding: 9px;
+    color: black;
+    background-color: darkgrey;
+    margin-top: 9px;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 500px) {
+    .the_header h3 {
+        font-size: 31px;
+    }
+
+    .day {
+        font-size: 11px;
+    }
+}
